@@ -1,6 +1,6 @@
 FROM tomcat:8.5.0
 
-MAINTAINER hemanth.sai01@gmail.com
+MAINTAINER nishanthrao33pisi@gmail.com
 
 COPY ["jenkins.war","/usr/local/tomcat/webapps/"]
 COPY ["tomcat-users.xml","/usr/local/tomcat/conf/"]
